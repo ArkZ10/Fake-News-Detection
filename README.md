@@ -4,6 +4,8 @@
 
 This project addresses the challenge of fake news detection, a critical issue in today's digital era. Fake news can significantly impact public perception, democratic processes, and social stability. Developing machine learning models to classify news articles as real or fake can aid in combating the spread of misinformation.
 
+The project is run on the pipeline orchestrator Apache Beam, which allows for scalable, distributed data processing. Apache Beam's flexibility enables the implementation of complex data processing workflows, ensuring efficient handling and transformation of large datasets necessary for training and evaluating machine learning models. By leveraging Apache Beam, we can streamline the preprocessing, feature extraction, model training, and evaluation phases, thereby enhancing the overall efficiency and robustness of the fake news detection system.
+
 ## Dataset
 
 The dataset used for this project is the [Fake News Dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification). It contains news articles labeled as either real or fake, providing a basis for training and evaluating the machine learning model.
